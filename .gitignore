@@ -34,7 +34,17 @@ local.properties
 *.keystore
 !debug.keystore
 .kotlin/
-
+android/app/.cxx
+android/app/release/*
+android/output
+android/output/*
+# Android build artifacts
+**/android/build/
+**/android/.gradle/
+**/android/app/build/
+*.iml
+*.apk
+*.aar
 # node.js
 #
 node_modules/
@@ -73,3 +83,9 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+package-lock.json
+
+/package-lock.json
+yarn-lock.json
+.env/*
+pnpm-lock.yaml

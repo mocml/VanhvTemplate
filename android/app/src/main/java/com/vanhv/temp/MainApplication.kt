@@ -1,4 +1,4 @@
-package com.floods
+package com.vanhv.temp
 
 import android.app.Application
 import com.facebook.react.PackageList
