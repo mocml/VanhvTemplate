@@ -6,6 +6,8 @@ const config = {
     extraNodeModules: {
       "react-dom": require.resolve("react-native"),
     },
+    assetExts: assetExts.filter((ext) => ext !== "svg"),
+    sourceExts: [...sourceExts, "svg"]
   },
   transformer: {
     getTransformOptions: async () => ({
@@ -17,10 +19,6 @@ const config = {
     babelTransformerPath: require.resolve(
       "react-native-svg-transformer/react-native"
     )
-  },
-  resolver: {
-    assetExts: assetExts.filter((ext) => ext !== "svg"),
-    sourceExts: [...sourceExts, "svg"]
   }
 };
 

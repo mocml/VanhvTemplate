@@ -1,0 +1,10 @@
+node_modules/
+android/
+ios/
+Pods/
+.bundle/
+/vendor/bundle/
+coverage/
+build/
+dist/
+.DS_Store

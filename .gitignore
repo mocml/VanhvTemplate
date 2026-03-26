@@ -88,4 +88,3 @@ package-lock.json
 /package-lock.json
 yarn-lock.json
 .env/*
-pnpm-lock.yaml
