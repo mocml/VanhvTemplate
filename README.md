@@ -16,6 +16,10 @@ npm start
 
 # OR using Yarn
 yarn start
+
+# Rename , bundile-id app
+npx react-native-rename "AppName" -b "com.bundleid.demo"
+yarn rn "Tên App Mới" -b "com.bundle.id"
 ```
 
 ## Step 2: Build and run your app
